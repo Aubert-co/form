@@ -18,7 +18,7 @@ const formRef = useRef(null);
       const candidatos = data01;
       fetch('http://localhost:3001/envio', {
         method: 'POST',
-        body: JSON.stringify({candidatos}),
+        body: JSON.stringify({name:"lucas",email:"lucas@gmail.com"}),
         headers: { 'Content-Type': 'application/json'}
       })
     
